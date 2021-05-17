@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+}
+
+.head {
+    text-align: center;
+}
+
+.navigation {
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    max-width: fit-content;
+    position: relative;
+}
+
+.listItem {
+    max-width: center;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    font-weight: bolder;
+    padding: 5px 5px;
+    border-style: ridge;
+    background-color: rgb(100, 155, 100);
+    color: white;
+    border-width: 2px;
+    border-color: rgb(62, 100, 62);
+    border-radius: 10px;
+    font-size: 21px;
+    box-shadow: 5px 5px 15px -3px #000000;
+}
+
+.listLink {
+    color: white;
+    text-decoration: none;
+}
+
+.myphoto {
+    margin: 0 auto;
+    display: block;
+    border-style: inherit;
+    border-radius: 100%;
+    border-color: #ddd;
+}
+
+.button {
+    background-color: rgb(100, 155, 100);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: center;
+    box-shadow: 5px 5px 15px -3px #000000;
+}
+
+.button:hover {
+    transform: scale(0.9);
+}
+
+.dark {
+    background: rgba(182, 181, 181, 0.918);
+}
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.tableCell {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.caption {
+    caption-side: bottom;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tableHeader {
+    background-color: rgb(100, 155, 100);
+    color: white;
+    font-weight: normal;
+}
+
+.tableRow:nth-child(even) {
+    background: #eee;
+}
+
+.tableRow:hover {
+    background: #bbb;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.up {
+    background-color: rgb(100, 155, 100);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 47%;
+    box-shadow: 5px 5px 15px -3px #000000;
+}
+
+.footer {
+    margin-top: 70px;
+    padding: 10px;
+    text-align: center;
+}
